@@ -3,4 +3,5 @@ influxdb:
   container_name: influxdb
   ports:
     - "8083:8083"
+    - "8086:9086"
     - "2003:2003"
