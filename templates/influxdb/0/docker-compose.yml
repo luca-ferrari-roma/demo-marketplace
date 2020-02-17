@@ -1,6 +1,6 @@
 ```
 influxDB:
-  image: influxdb:latest
+  image: influxdata:latest
   ports:
     - "8086:8086"
     - "8083:8083"
