@@ -1,6 +1,6 @@
 ```
 influxDB:
-  image: <your dockerhub <username>/python-webserver:latest
+  image: luca-ferrari-roma/demo-marketplace:latest
   ports:
     - "8086:8086"
     - "8083:8083"
