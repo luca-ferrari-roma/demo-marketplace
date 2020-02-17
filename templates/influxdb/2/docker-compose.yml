@@ -1,5 +1,5 @@
 influxdb:
-  image: influxdb:1.7
+  image: influxdb:latest
   container_name: influxdb
   ports:
     - "8083:8083"
