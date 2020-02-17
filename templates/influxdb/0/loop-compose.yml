@@ -4,12 +4,8 @@ This `loop-compose.yml` file provides the variable descriptor for the `docker-co
 .catalog:
   name: InfluxDB
   version: latest
-  uuid: influxdb—0
-  questions:
-  - variable: HTTP_PORT
-    description: 'WebServer exposed port'
-    label: 'Port:'
-    required: true
-    default: 8086
-    type: int
+  description: |
+    InfluxDB is a time series database built from the ground up to handle high write and query loads.
+influxdb:
+  scale: 1
 ```
