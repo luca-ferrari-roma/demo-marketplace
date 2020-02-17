@@ -1,4 +1,4 @@
-name: InfluxDBMarketPlace
-description: Simple MarketPLace for InfluxDB
+name: InfluxDB
+description: Simple service for InfluxDB
 category: DB
 version: 1.7
