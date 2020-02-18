@@ -15,7 +15,7 @@ services:
     restart: "${RESTART}"
     volumes:
       - influxdb-vol:/var/lib/influxdb
-    network_mode: bridge
+
 volumes:
   influxdb-vol:
     driver: local
