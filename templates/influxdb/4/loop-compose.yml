@@ -21,3 +21,9 @@
     required: true
     default: "password"
     type: string
+  - variable: INFLUXDB_HTTP_AUTH_ENABLED
+    description: 'InfluxDB HTTP auth enabled'
+    label: 'HTTP auth enabled:'
+    required: true
+    default: true
+    type: boolean
