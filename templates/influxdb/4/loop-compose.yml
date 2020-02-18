@@ -1,7 +1,6 @@
 .catalog:
   name: InfluxDB
   version: latest
-  uuid: influxdb-0
   questions:
   - variable: INFLUX_DB
     description: 'InfluxDB Database name'
