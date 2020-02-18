@@ -1,5 +1,5 @@
 .catalog:
-  name: InfluxDB
+  name: influxdb
   version: latest
   questions:
   - variable: INFLUXDB_DB
