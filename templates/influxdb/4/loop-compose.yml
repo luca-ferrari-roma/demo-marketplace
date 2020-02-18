@@ -2,4 +2,10 @@
   name: InfluxDB
   version: latest
   uuid: influxdb-0
- 
+ questions:
+  - variable: INFLUXDB_DB
+    description: 'InfluxDB Database name'
+    label: 'DB Name:'
+    required: true
+    default: "databasename"
+    type: string
