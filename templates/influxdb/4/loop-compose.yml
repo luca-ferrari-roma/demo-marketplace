@@ -2,7 +2,7 @@
   name: InfluxDB
   version: latest
   questions:
-  - variable: INFLUX_DB
+  - variable: INFLUXDB_DB
     description: 'InfluxDB Database name'
     label: 'DB Name:'
     required: true
