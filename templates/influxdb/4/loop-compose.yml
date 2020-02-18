@@ -3,49 +3,22 @@
   version: latest
   uuid: influxdb-0
   questions:
-  - variable: INFLUXDB_PORT1
-    description: 'InfluxDB exposed port 1'
-    label: 'Port 1:'
+  - variable: INFLUX_DB
+    description: 'InfluxDB Database name'
+    label: 'DB Name:'
     required: true
-    default: 3306
-    type: int
-  - variable: INFLUXDB_PORT2
-    description: 'InfluxDB exposed port 2'
-    label: 'Port 2:'
-    required: true
-    default: 3306
-    type: int
-  - variable: INFLUXDB_PORT3
-    description: 'InfluxDB exposed port 3'
-    label: 'Port 3:'
-    required: true
-    default: 3306
-    type: int
-  - variable: INFLUXDB_DATABASE
-    description: 'InfluxDB database'
-    label: 'Database:'
-    required: true
-    default: sample
     type: string
-  - variable: INFLUXDB_USER
-    description: 'InfluxDB user'
-    label: 'User:'
+  - variable: INFLUXDB_ADMIN_USER
+    description: 'InfluxDB admin user'
+    label: 'Admin user:'
     required: true
-    default: user
     type: string
-  - variable: INFLUXDB_PASSWORD
-    description: 'InfluxDB password'
-    label: 'Password:'
+  - variable: INFLUXDB_ADMIN_PASSWORD
+    description: 'InfluxDB admin password
+    label: 'Admin password:'
     required: true
-    default: loopedge-s3cr3t!
     type: string
-  - variable: INFLUXDB_ROOT_PASSWORD
-    description: 'InfluxDB root password'
-    label: 'MySQL password:'
-    required: true
-    default: loopedge-s3cr3t!
-    type: string
-  - variable: RESTART
+    - variable: RESTART
     description: 'Application restart option: no, always, on-failure'
     label: 'Restart:'
     required: true
