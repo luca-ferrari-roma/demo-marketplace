@@ -4,9 +4,9 @@ services:
   influxdb:
     image: influxdb:1.7.9
     ports:
-      - ${INFLUXDB_PORT1}:3306/tcp
-      - ${INFLUXDB_PORT2}:3306/tcp
-      - ${INFLUXDB_PORT3}:3306/tcp
+      - ${INFLUXDB_PORT1}:8083/tcp
+      - ${INFLUXDB_PORT2}:8086/tcp
+      - ${INFLUXDB_PORT3}:8090/tcp
     environment:
       - INFLUXDB_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
       - INFLUXDB_DATABASE=${MYSQL_DATABASE}
