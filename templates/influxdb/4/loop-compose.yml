@@ -1,34 +1,46 @@
 .catalog:
   name: InfluxDB
   version: latest
-  uuid: mysql-0
+  uuid: influxdb-0
   questions:
-  - variable: MYSQL_PORT
-    description: 'MySQL exposed port'
-    label: 'Port:'
+  - variable: INFLUXDB_PORT1
+    description: 'InfluxDB exposed port 1'
+    label: 'Port 1:'
     required: true
     default: 3306
     type: int
-  - variable: MYSQL_DATABASE
-    description: 'MySQL database'
+  - variable: INFLUXDB_PORT2
+    description: 'InfluxDB exposed port 2'
+    label: 'Port 2:'
+    required: true
+    default: 3306
+    type: int
+  - variable: INFLUXDB_PORT3
+    description: 'InfluxDB exposed port 3'
+    label: 'Port 3:'
+    required: true
+    default: 3306
+    type: int
+  - variable: INFLUXDB_DATABASE
+    description: 'InfluxDB database'
     label: 'Database:'
     required: true
     default: sample
     type: string
-  - variable: MYSQL_USER
-    description: 'MySQL user'
+  - variable: INFLUXDB_USER
+    description: 'InfluxDB user'
     label: 'User:'
     required: true
     default: user
     type: string
-  - variable: MYSQL_PASSWORD
-    description: 'MySQL password'
+  - variable: INFLUXDB_PASSWORD
+    description: 'InfluxDB password'
     label: 'Password:'
     required: true
     default: loopedge-s3cr3t!
     type: string
-  - variable: MYSQL_ROOT_PASSWORD
-    description: 'MySQL root password'
+  - variable: INFLUXDB_ROOT_PASSWORD
+    description: 'InfluxDB root password'
     label: 'MySQL password:'
     required: true
     default: loopedge-s3cr3t!
