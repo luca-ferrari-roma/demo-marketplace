@@ -1,6 +1,6 @@
 .catalog:
-  name: InfluxDB
-  version: 1.7
+  name: Influx_DB
+  version: latest
   questions:
   - variable: INFLUXDB_DB
     description: 'InfluxDB Database name'
