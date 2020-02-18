@@ -1,5 +1,5 @@
 .catalog:
   name: InfluxDB
-  version: 1.7.9
-  uuid: mysql-0
+  version: latest
+  uuid: influxdb-0
  
