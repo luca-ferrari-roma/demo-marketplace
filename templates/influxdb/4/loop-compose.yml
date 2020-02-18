@@ -2,7 +2,7 @@
   name: InfluxDB
   version: latest
   uuid: influxdb-0
- questions:
+  questions:
   - variable: INFLUXDB_DB
     description: 'InfluxDB Database name'
     label: 'DB Name:'
