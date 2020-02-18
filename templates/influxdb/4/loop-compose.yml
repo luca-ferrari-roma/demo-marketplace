@@ -15,3 +15,15 @@
     required: true
     default: "admin"
     type: string
+  - variable: INFLUXDB_ADMIN_PASSWORD
+    description: 'InfluxDB admin password
+    label: 'Admin password:'
+    required: true
+    default: "password"
+    type: string
+  - variable: INFLUXDB_HTTP_AUTH_ENABLED
+    description: 'InfluxDB HTTP auth enabled
+    label: 'HTTP auth enabled:'
+    required: true
+    default: "true"
+    type: string
