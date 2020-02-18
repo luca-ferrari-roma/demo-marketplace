@@ -3,32 +3,36 @@
   version: latest
   description: |
     InfluxDB is a time series database built from the ground up to handle high write and query loads.
+  uuid: mysql-0
  questions:
   - variable: INFLUXDB_DB
     description: 'InfluxDB Database name'
     label: 'DB Name:'
     required: true
+    default: databasename
     type: string
   - variable: INFLUXDB_ADMIN_USER
     description: 'InfluxDB admin user'
     label: 'Admin user:'
     required: true
+    default: admin
     type: string
   - variable: INFLUXDB_ADMIN_PASSWORD
     description: 'InfluxDB admin password
     label: 'Admin password:'
     required: true
+    default: password
     type: string
   - variable: INFLUXDB_HTTP_AUTH_ENABLED
     description: 'InfluxDB HTTP auth enabled
     label: 'HTTP auth enabled:'
     required: true
-	  default: "true"
+    default: true
     type: string
   - variable: RESTART
     description: 'Application restart option: no, always, on-failure'
     label: 'Restart:'
     required: true
-    default: "always"
+    default: always
     type: string
  
