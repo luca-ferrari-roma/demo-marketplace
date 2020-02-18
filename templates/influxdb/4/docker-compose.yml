@@ -1,6 +1,7 @@
 version: "4"
 
   # https://docs.influxdata.com/influxdb/v1.7/administration/configservices:
+services:
   influxdb:
     image: influxdb:1.7
     ports:
@@ -14,6 +15,9 @@ version: "4"
       - INFLUXDB_HTTP_AUTH_ENABLED=${INFLUXDB_HTTP_AUTH_ENABLED}
     volumes:
       - influxdb-vol:/var/lib/influxdb
-
+		network_mode: bridge
+		restart: "${RESTART}"
+    
 volumes:
   influxdb-vol:
+      driver: local
