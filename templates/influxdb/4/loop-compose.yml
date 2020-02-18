@@ -9,3 +9,9 @@
     required: true
     default: "databasename"
     type: string
+  - variable: INFLUXDB_ADMIN_USER
+    description: 'InfluxDB admin user'
+    label: 'Admin user:'
+    required: true
+    default: "admin"
+    type: string
