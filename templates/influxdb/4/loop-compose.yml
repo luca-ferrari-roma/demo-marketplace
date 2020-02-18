@@ -27,3 +27,9 @@
     required: true
     default: true
     type: boolean
+  - variable: RESTART
+    description: 'Application restart option: no, always, on-failure'
+    label: 'Restart:'
+    required: true
+    default: "always"
+    type: string
