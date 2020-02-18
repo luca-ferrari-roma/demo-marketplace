@@ -6,7 +6,7 @@
     description: 'InfluxDB Database name'
     label: 'DB Name:'
     required: true
-    default: "databasename"
+    default: "weather"
     type: string
   - variable: INFLUXDB_ADMIN_USER
     description: 'InfluxDB admin user'
@@ -18,5 +18,5 @@
     description: 'InfluxDB admin password'
     label: 'Admin password:'
     required: true
-    default: "password"
+    default: "admin"
     type: string
