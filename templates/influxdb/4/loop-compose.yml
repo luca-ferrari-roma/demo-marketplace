@@ -16,7 +16,7 @@
     default: "admin"
     type: string
   - variable: INFLUXDB_ADMIN_PASSWORD
-    description: 'InfluxDB admin password
+    description: 'InfluxDB admin password'
     label: 'Admin password:'
     required: true
     default: "password"
