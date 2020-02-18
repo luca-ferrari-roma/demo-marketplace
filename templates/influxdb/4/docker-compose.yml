@@ -15,8 +15,8 @@ services:
       - INFLUXDB_HTTP_AUTH_ENABLED=${INFLUXDB_HTTP_AUTH_ENABLED}
     volumes:
       - influxdb-vol:/var/lib/influxdb
-		network_mode: bridge
-		restart: "${RESTART}"
+    network_mode: bridge
+    restart: "${RESTART}"
     
 volumes:
   influxdb-vol:
